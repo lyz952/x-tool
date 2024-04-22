@@ -1,11 +1,11 @@
 <?php
 
-namespace lyz\Common;
+namespace Lyz\Common;
 
 /**
  * Class BaseObject
  * 对象类
- * @package lyz\Common
+ * @package Lyz\Common
  */
 class BaseObject
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace lyz\Utils;
+namespace Lyz\Utils;
 
 /**
  * Class StringUtil
  * 字符串工具类
- * @package lyz\Utils
+ * @package Lyz\Utils
  */
 class StringUtil
 {
