@@ -1,0 +1,23 @@
+{
+  "name": "lyz/x-tool",
+  "description": "PHP tool library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lyz",
+      "email": "lyzx952@163.com"
+    }
+  ],
+  "keywords": [
+    "Tool"
+  ],
+  "require": {
+    "php": ">=7.1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lyz\\": "src/"
+    }
+  }
+}
