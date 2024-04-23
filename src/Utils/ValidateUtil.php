@@ -3,8 +3,8 @@
 namespace Lyz\Utils;
 
 /**
- * Class ValidateUtil
  * 验证工具类
+ * Class ValidateUtil
  * @package Lyz\Utils
  */
 class ValidateUtil

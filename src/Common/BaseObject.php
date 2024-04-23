@@ -3,8 +3,8 @@
 namespace Lyz\Common;
 
 /**
- * Class BaseObject
  * 对象类
+ * Class BaseObject
  * @package Lyz\Common
  */
 class BaseObject
