@@ -22,12 +22,12 @@ class OutputModel extends BaseObject
     /**
      * 成功
      */
-    const CODE_SUCCESS = 200;
+    const CODE_SUCCESS = 1;
 
     /**
      * 失败
      */
-    const CODE_FAIL = 400;
+    const CODE_FAIL = 0;
 
     /**
      * @var integer 状态
