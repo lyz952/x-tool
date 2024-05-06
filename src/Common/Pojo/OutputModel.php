@@ -45,19 +45,19 @@ class OutputModel extends BaseObject
     protected $_errorMessage;
 
     /**
-     * 初始化输出对象
+     * 初始化输出对象，默认失败
      *
      * @param int    $status
      * @param int    $code
      * @param string $errorMessage
      * @return static
      */
-    public static function init($status = self::STATUS_FAIL, $code = self::CODE_FAIL, $errorMessage = '操作失败')
+    public static function init($status = null, $code = null, $errorMessage = null)
     {
         $cls = new static();
-        $cls->_status = $status;
-        $cls->_code = $code;
-        $cls->_errorMessage = $errorMessage;
+        $cls->_status = is_null($status) ? self::STATUS_FAIL : $status;
+        $cls->_code = is_null($code) ? self::CODE_FAIL : $code;
+        !is_null($errorMessage) && $cls->_errorMessage = $errorMessage;
 
         return $cls;
     }
